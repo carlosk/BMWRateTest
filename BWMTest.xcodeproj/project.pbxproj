@@ -140,6 +140,7 @@
 		856F0DFB15BE88F70074F00A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 856F0DF915BE88F70074F00A /* InfoPlist.strings */; };
 		856F0DFD15BE88F70074F00A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856F0DFC15BE88F70074F00A /* main.m */; };
 		856F0E0115BE88F70074F00A /* COAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856F0E0015BE88F70074F00A /* COAppDelegate.m */; };
+		85CF1ABB15BFDD48006BAF96 /* COTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CF1ABA15BFDD48006BAF96 /* COTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -283,6 +284,8 @@
 		856F0DFE15BE88F70074F00A /* BWMTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BWMTest-Prefix.pch"; sourceTree = "<group>"; };
 		856F0DFF15BE88F70074F00A /* COAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COAppDelegate.h; sourceTree = "<group>"; };
 		856F0E0015BE88F70074F00A /* COAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COAppDelegate.m; sourceTree = "<group>"; };
+		85CF1AB915BFDD48006BAF96 /* COTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COTestViewController.h; sourceTree = "<group>"; };
+		85CF1ABA15BFDD48006BAF96 /* COTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +507,8 @@
 				8511E4D815BFBA7B00A77725 /* COiPadViewController.m */,
 				8511E4D915BFBA7B00A77725 /* COiPadViewController.xib */,
 				856F0DF715BE88F70074F00A /* Supporting Files */,
+				85CF1AB915BFDD48006BAF96 /* COTestViewController.h */,
+				85CF1ABA15BFDD48006BAF96 /* COTestViewController.m */,
 			);
 			path = BWMTest;
 			sourceTree = "<group>";
@@ -756,6 +761,7 @@
 				856F0DFD15BE88F70074F00A /* main.m in Sources */,
 				856F0E0115BE88F70074F00A /* COAppDelegate.m in Sources */,
 				8511E4DA15BFBA7B00A77725 /* COiPadViewController.m in Sources */,
+				85CF1ABB15BFDD48006BAF96 /* COTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
