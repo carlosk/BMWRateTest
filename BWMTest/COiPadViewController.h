@@ -10,13 +10,17 @@
 
 @interface COiPadViewController : UIViewController{
     NSMutableArray *_array;//图片文件
-    CGPoint _touchBeginLocation;//触摸的点 
+    CGPoint _touchBeginLocation;//触摸的点
     
-    NSUInteger _count;
+    NSUInteger _pageIndex;
+    NSUInteger _lastPageIndex;
     NSUInteger _currentIndex;
-
+    
+    NSUInteger _currentCount;//当前有多少张图片
+    
 }
 @property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (retain, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)changeSpeed:(id)sender;
 
 @end
